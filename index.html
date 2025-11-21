@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microfinance Bank App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+  <div class="container">
+    <!-- Login Page -->
+    <div id="loginPage">
+      <h2>Microfinance Bank Login</h2>
+      <input type="text" id="username" placeholder="Enter Username">
+      <input type="password" id="password" placeholder="Enter Password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Dashboard Page -->
+    <div id="dashboard" class="hidden">
+      <h2>Welcome, <span id="displayName"></span></h2>
+      <div class="balance">
+        Balance: ₦<span id="balance">10000</span>
+      </div>
+      <div class="services">
+        <div class="service-btn" onclick="payBills()">💡 Pay Bills</div>
+        <div class="service-btn" onclick="buyAirtime()">📱 Buy Airtime</div>
+        <div class="service-btn" onclick="transfer()">💳 Transfer</div>
+        <div class="service-btn" onclick="deposit()">🏦 Deposit</div>
+      </div>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+
+ <script src="app1.js"></script>
+</body>
+</html>
