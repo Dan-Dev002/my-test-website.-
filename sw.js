@@ -5,8 +5,8 @@ const PRECACHE_URLS = [
   '/index.html',
   '/style.css',
   '/app1.js',
-  '/image/star-192.png',
-  '/image/star-512.png'
+  '/star-192.png',
+  '/star-512.png'
   ];
   
   self.addEventListener('intal', (event) => {
