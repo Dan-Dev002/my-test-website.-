@@ -1,0 +1,21 @@
+{
+  "name": "log Reg",
+  "short_name": "log/Reg",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffE9D2",
+  "theme_color": "#ffE1C4",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "/image/star-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+     "src": "/image/star-512.png",
+     "type": "image/png",
+     "sizes": "512x512" 
+    
+  }
+    ]
+}
