@@ -86,15 +86,3 @@ function deposit() {
 
 // Auto-login if user already exists
 window.onload = showDashboard;
-
-// service worker registeration
-if ('serviceworker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
-    .then(function(reg) {
-      console.log('registerd successfully', reg)
-
-    })
-    .catch(function(err) {
-      console.log('serviceworker faild', err)
-    });
-}
