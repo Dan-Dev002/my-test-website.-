@@ -1,14 +1,14 @@
 const CACHE_NAME = 'my-site-cashe-v1';
 
 const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app1.js',
-  '/manifest.json',
-  '/sw.js',
-  '/star-192.png',
-  '/star-512.png'
+  '/my-test-website.-',
+  '/my-test-website.-/index.html',
+  '/my-test-website.-/style.css',
+  '/my-test-website.-/app1.js',
+  '/my-test-website.-/manifest.json',
+  '/my-test-website.-/sw.js',
+  '/my-test-website.-/star-192.png',
+  '/my-test-website.-/star-512.png'
   ];
   
   self.addEventListener('intal', (event) => {
