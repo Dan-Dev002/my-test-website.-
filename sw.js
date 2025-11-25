@@ -5,6 +5,8 @@ const PRECACHE_URLS = [
   '/index.html',
   '/style.css',
   '/app1.js',
+  '/manifest.json',
+  '/sw.js',
   '/star-192.png',
   '/star-512.png'
   ];
