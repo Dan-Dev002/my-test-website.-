@@ -1,7 +1,7 @@
 {
   "name": "log Reg",
   "short_name": "log/Reg",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffE9D2",
   "theme_color": "#ffE1C4",
