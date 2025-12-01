@@ -2,7 +2,7 @@ const CACHE_NAME = 'my-site-cashe-v1';
 
 const PRECACHE_URLS = [
   '/my-test-website.-',
-  '/my-test-website.-/index.html',
+  '/my-test-website.-/404.html',
   '/my-test-website.-/style.css',
   '/my-test-website.-/app1.js',
   '/my-test-website.-/manifest.json',
